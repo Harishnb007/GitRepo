@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MortgageView</string>
+    <string name="hint_userid"> User ID </string>
+    <string name="hint_pwd"> Password </string>
+    <string name="title_fingerprint">One-touch Sign In</string>
+    <string name="desc_fingerprint">Please place your fingertip on the scanner to verify your identity</string>
+    <string name="note">(Fingerprint sign in makes your app login much faster. Your device should have at least one fingerprint registered in device settings)</string>
+    <string name="title_activity_home">Fingerprint</string>
+    <string name="activity_home_desc">You have successfully logged in with fingerprint authentication</string>
+    <string name="activity_home_note">Close and re-open the app to see the fingerprint auth screen again</string>
+    <string name="unit_converter"> Forgot User ID ? </string>
+    <string name="exit_txt">Are you sure want to exit the app</string>
+    <string name="ok">Submit</string>
+    <string name="cancel">CANCEL</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

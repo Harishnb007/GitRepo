@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/material_background"
+            android:layout_gravity="center"
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="@dimen/_220sdp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/dialog_for_userid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_gravity="center"
+                android:text="Forgot User ID ?"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_15sdp" />
+
+            <EditText
+                android:layout_marginTop="@dimen/_5sdp"
+                android:id="@+id/dialog_loan_no"
+                android:layout_width="@dimen/_250sdp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:maxLength="14"
+                android:hint="Enter  your  Loan  Number"
+                android:inputType="number"
+                android:singleLine="true"
+                android:textSize="@dimen/_10sdp" />
+
+            <TextView
+                android:id="@+id/Error_loan_no"
+                android:layout_width="wrap_content"
+                android:visibility="visible"
+                android:layout_height="wrap_content"
+                android:textColor="#FF0000"
+                android:layout_gravity="center"
+                android:textSize="@dimen/_10sdp" />
+
+            <EditText
+                android:id="@+id/dialog_loan_pwd"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_width="@dimen/_250sdp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:maxLength="4"
+                android:hint="Enter the last 4 digits of your SSN "
+                android:singleLine="true"
+                android:textSize="@dimen/_10sdp" />
+
+            <TextView
+                android:id="@+id/Error_ssn_no"
+                android:layout_width="wrap_content"
+                android:visibility="visible"
+                android:textColor="#FF0000"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="@dimen/_10sdp" />
+
+
+
+            <TextView
+                android:id="@+id/dialog_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text=""
+                android:textColor="@android:color/darker_gray"
+                android:textSize="@dimen/_10sdp" />
+
+
+            <TextView
+                android:id="@+id/dialog_txt1"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Your user ID will be sent to the \n email address on file."
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_10sdp" />
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:background="@drawable/district_background">
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/dialogue_cancel_txt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Cancel"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:textSize="@dimen/_12sdp" />
+
+                    <View
+                        android:layout_width="@dimen/_1sdp"
+                        android:layout_height="match_parent"
+                        android:background="#E6E6E6" />
+
+                    <TextView
+                        android:id="@+id/dialogue_submit_txt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Submit"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:textSize="@dimen/_12sdp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
